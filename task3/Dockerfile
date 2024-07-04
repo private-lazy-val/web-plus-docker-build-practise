@@ -7,7 +7,7 @@ WORKDIR /home/ilovedocker/app
 # Copy the package.json and package-lock.json from the subdirectory packages to the working directory
 COPY packages/package*.json ./
 
-# Install dependencies
+# Install the dependencies
 RUN npm install
 
 # Copy the source code from the subdirectory src to the working directory
