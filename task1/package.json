@@ -1,0 +1,12 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "Task 1 application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
